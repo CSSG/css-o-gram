@@ -12,7 +12,7 @@ CSSG описывает конструкцию сущности привычны
 
 Предположим, HTML выглядит примерно так:
 
-  <div class="post">
+	<div class="post">
 		<div class="post_h">
 			<div class="post_h_name">Заголовок</div>
 		</div>
