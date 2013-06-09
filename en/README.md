@@ -1,4 +1,4 @@
-# CSS-o-Gramm (CSSG)
+# CSS-o-Gram (CSSG)
 > neat, intuitive, fast - like [SSG](http://en.wikipedia.org/wiki/Steyr_SSG_69), but peaceful
 
 ## Overview
@@ -36,4 +36,4 @@ Syntax legend - [legend.md](legend.md)
 
 Any questions - feel free to ask via [email](mailto:wdybih@gmail.com).  
 All content is available for free distribution.  
-[Link to source](https://github.com/XOP/css-o-gramm) is mandatory when copying materials.
+[Link to source](https://github.com/XOP/css-o-gram) is mandatory when copying materials.
