@@ -7,10 +7,10 @@ CSSG stands for "CSS Diagram", in fact - a comment block in CSS file, which desc
 
 This is your trusted companion in large project and assistant for your colleages, if you work in team.
 
-Low entry barriers - you use regular syntax and some logical rules.  
+Low entry barriers - use regular syntax and some logical rules.  
 However, it's implied that you familiar with [BEM](http://ru.bem.info/method/), [SMACSS](http://smacss.com/), [MCSS](https://github.com/operatino/MCSS) etc. and perhaps already use any of theese methodologies.  
 If not, you could possibly hear about [Bootstrap](http://twitter.github.io/bootstrap/) and other frameworks.  
-Anyway it's recommended to get in touch with [OOCSS](http://oocss.org/) terminology _before_ further reading.
+Either way it is recommended to get yourself acquainted with [OOCSS](http://oocss.org/) terminology _before_ further reading.
 
 ## For whom and for what
 
