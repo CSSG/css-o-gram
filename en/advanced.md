@@ -201,7 +201,7 @@ Alternative (mutual exclusive) blocks example:
 	 
 	*/
 
-When it's needed to illustrate some valueable class somewhere high in DOM tree:
+When it's necessary to illustrate some valueable class somewhere high in DOM tree:
 
 	/*
 		
