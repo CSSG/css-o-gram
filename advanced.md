@@ -1,13 +1,12 @@
-# Копаем глубже
+# Let's dig in
 
-## Множества
+## Multiplicity
 
-Для некоторых сущностей, например элементов списка или просто последовательности одинаковых блоков характерно множественное появление.  
+Multiplicity happens to be typical for some substances, e.g. list elements or some blocks sequence.
 
-В CSSG это будет выглядеть так:
+In CSSG it will look like this:
 
-
-    /*
+	/*
 	
 	    post_cnt
 	    	post_cnt_ul
@@ -15,7 +14,7 @@
 	
 	*/
 
-или так
+or like that:
 
 	/*
 	
@@ -24,19 +23,19 @@
 	
 	*/
 
-Ключевое отличие '+' и '*' - в специфике множества.  
-'+' указывает, что элемент появится хотя бы один раз (характерно для элементов списка - \<li\>)  
-'*' указывает, что элемент появится 0 и более раз (относится как правило ко всем остальным элементам)  
+The main difference between '+' and '*' is in multiplicity specifics.  
+'+' says that element will appear at least 1 time (which is typical for list items - \<li\>)  
+'*' however says that element may appear more than 0 times (any other elements - you name it)
 
-> важно понимать разницу между опциональным появлением ([element]) и появлением 0 и более раз (element *)  
-> на первый взгляд отличие незначительное, но в контексте все встает на свои места
+> it's important to feel the distinction between optional elements ([element]) and appearing 0 and more times (element *)  
+> insignificant on the first sight, it appears to have contextual meaning
 
-## Модификаторы - больше и удобнее
+## Modificators - more and meaningful
 
-Как было указано в [basic.md](basic.md), модификаторы дополняют сущность и теоретически возможно их одновременное появление.  
-Необходимая логика описывается дополнительным синтаксисом.  
+As it was mentioned in [basic.md](basic.md), modificators complement substance and theoretically their simultaneous presence is possible.  
+Crucial logic described with the help of special syntax.
 
-Взаимоисключение выглядит следующим образом: 
+For example, alternative is illustrated this way:
 
 	/*
 		
@@ -44,7 +43,7 @@
 	
 	*/
 
-и даже так:
+and even like this:
 
 	/*
 	
@@ -52,7 +51,7 @@
 	
 	*/
 
-Когда класс жестко связан с модификатором (бесполезен или не используется без него), это указывается через точку:
+Dot (.) illustrates robust connection between class and another class or modificator
 
 	/*
 	
@@ -65,12 +64,12 @@
 	
 	*/
 
-> отбивка по правому краю для привязанного класса не нужна
+> alignment on the right for connected class is not necessary
 
-## Наследование
+## Inheritance
 
-Сущность может быть прямым наследником другой сущности.  
-Чтобы обозначить это, указывает "родителя" через @.
+Substance can be direct descendant of other substance.  
+To point this out, define ancestor via "@" symbol.
 
 	/*
 	
@@ -80,11 +79,11 @@
 	
 	*/
 
-> не обязательно перечислять модификаторы, поскольку они наследуются по умолчанию  
-> однако если есть отличия, необходимо перечислить все возможные классы  
-> по умолчанию принятно, что указанные модификаторы будут являться единственно возможными
+> it's not necessary to list all modificators, because they inherited by default  
+> however, if there is any difference, we must list all possible classes  
+> it's accepted that these defined modificators will only be possible
 
-Например, в этом примере **post-advanced** будет иметь один возможный модификатор **__new**, несмотря на наличие модификаторов у **post**
+For instance, it is illustrated in the following code, that **post-advanced** will have one possible modificator **__new**, regardless the fact, that **post** has some modificators as well
 
 	/*
 	
@@ -94,13 +93,13 @@
 	
 	*/
 
-## Условная шаблонизация
+## Nominal templates
 
-Наследование напрямую связано с условной шаблонизацией.  
-Указывая в родительской сущности изменяемые части, мы упрощаем описание потомственной сущности и избегаем дублирования кода.  
-Это не обязательная, но удобная практика, если таких сущностей как минимум две.
+Inheritance is directly connected with nominal templates.  
+We simplify illustration of descendant substance and avoid code duplication by setting changeable parts in ancestor substance.  
+This is not mandatory, but turns out to be helpful if you have at least two such substances.
 
-Например, родительская сущность выглядит так:
+As an example, let's say ancestor substance looks like this:
 
 	/*
 	
@@ -109,8 +108,8 @@
 	            % content %
 	
 	*/
- 
-или так, если существует содержимое по умолчанию
+
+or like this, if there is any default content 
 
 	/*
 	
@@ -121,7 +120,7 @@
 	
 	*/
  
-потомственная сущность
+descendant substance
 
 	/*
 	
@@ -133,10 +132,10 @@
 	
 	*/
 
-> когда шаблон "раскрывается", второй символ % не пишем
+> when "filling" the template second % symbol is unnecessary
 
-В этом случае **post-advanced\_cnt** будет находится внутри **post\_cnt** и перепишет контент по умолчанию из второго примера.
-Если не использовать шаблонизацию, то же самое можно записать так:
+In this case **post-advanced\_cnt** will be inside **post\_cnt** and will override default content from second code piece.  
+Without nominal templates, CSSG may look like this:
 
 	/*
 	
@@ -148,14 +147,14 @@
 	
 	*/
 
-В данном случае разницы почти нет.  
-Но достаточно рассмотреть пример в контексте громоздкой структуры, чтобы ощутить все преимущества записи.
+There's almost no difference in this case.  
+However all notation potential can be seen in context of describing more complex structure
 
-> элемент **% content %** в разметке не имеет DOM-воплощения, это просто название шаблона
+> the **% content %** element has no DOM implementation, it is just a template name
 
-## Динамика
+## Dynamics
 
-Под динамикой понимается появление того или иного класса или элемента в процессе отработки скриптов и/или в результате действий пользователя.  
+By dynamics it's meant that some class or element may appear in layout due to scripts and user activity.
 
 	/*
 	 
@@ -166,7 +165,7 @@
 	
 	*/	
 
-Для обозначения динамических блоков используется дополненный существующий синтаксис опциональных частей:
+To define dynamic blocks complemented syntax for optional parts is used:
 
 	/*
 	 
@@ -183,9 +182,9 @@
 
 ## It's <<omplicated
 
-Сложные решения в CSS тоже можно иллюстрировать с помощью CSSG.
+Complex CSS approach can be described with CSSG.
 
-Ситуация с взаимоисключающими блоками:
+Alternative (mutual exclusive) blocks example:
 
 	/*
 	
@@ -202,7 +201,7 @@
 	 
 	*/
 
-Нужно указать наличие какого-либо ключевого класса где-то высоко в DOM:
+When it's necessary to illustrate some valueable class somewhere high in DOM tree:
 
 	/*
 		
@@ -216,7 +215,7 @@
 	 
 	*/
 
-CSSG _как правило_ само-демонстративен, но в особо сложных ситуациях не обойтись без комментариев:
+CSSG is self-explanatory _as a rule_, but some tough situations may require comments:
 
 	/*
 	

@@ -1,39 +1,40 @@
 # CSS-o-Gram (CSSG)
-> аккуратно, наглядно, быстро - как [SSG](http://en.wikipedia.org/wiki/Steyr_SSG_69), только мирно
+> rapid, intuitive, neat - like [SSG](http://en.wikipedia.org/wiki/Steyr_SSG_69), but peaceful
 
-## Общие сведения
+## Overview
 
-CSSG - это "диаграмма CSS", по своей сути - комментарий в CSS файле, описывающий структуру сущности, к которой применяются стили. Сущность может быть элементом, блоком или проектом, в зависимости от используемой (или _не_ используемой) методологии.
+CSSG stands for "CSS Diagram", in fact - a comment block in CSS file, which describes substance structure with CSS classes. Substance can be element, block or project, depending on methodology that you do (or _do not_) use.
 
-Это ваш верный спутник в большом проекте и помощник для ваших коллег, если вы работаете в команде.
+This is your trusted companion in large project and assistant for your colleages, if you work in team.
 
-Порог вхождения минимален - используется привычный синтаксис и несколько логичных правил.  
-Однако подразумевается, что вы знакомы с [БЭМ](http://ru.bem.info/method/), [SMACSS](http://smacss.com/), [MCSS](https://github.com/operatino/MCSS) и т.д. и возможно используете одну из этих методологий.  
-Если нет, вы наверняка слышали о [Bootstrap](http://twitter.github.io/bootstrap/) и прочих фрэймворках.  
-В любом случае рекомендуется ознакомиться с терминологией [OOCSS](http://oocss.org/) _до_ прочтения документации.
+Low entry barriers - use regular syntax and some logical rules.  
+However, it's implied that you familiar with [BEM](http://ru.bem.info/method/), [SMACSS](http://smacss.com/), [MCSS](https://github.com/operatino/MCSS) etc. and perhaps already use any of theese methodologies.  
+If not, you could possibly hear about [Bootstrap](http://twitter.github.io/bootstrap/) and other frameworks.  
+Either way it is recommended to get yourself acquainted with [OOCSS](http://oocss.org/) terminology _before_ further reading.
 
-## Для кого и для чего
+## For whom and for what
 
-* Лучшее структурирование кода и понимание чужих спецификаций
-* Инструмент общения с коллегами или разработчиками, далекими от фронтенда
-* Выявление потенциальных "узких мест" в верстке (уровень вложенности, количество классов и т.д.)
-* Упрощение дебаггинга и рефакторинга
-* Это просто красиво!
+* Better code structure and getting into new code
+* Conversation tool for colleages and developers, distant from front-end
+* Detecting potential "bottlenecks" in layout (excessive DOM nesting, classes amount etc.)
+* Easier debugging and refactoring
+* It's just pretty!
 
-## Как начать
+## Quick start
 
-Ознакомиться с первой частью спецификации CSSG - [basic.md](basic.md)  
-Если все просто - пробуйте и изучайте вторую часть - [advanced.md](advanced.md)  
-Памятка по синтаксису - [legend.md](legend.md)
-
------
-
-## Планы на ближайшее будущее
-
-* Создание генератора CSSG
+Get to know first part of CSSG documentation - [basic.md](basic.md)  
+Easy enough - try it and continue reading - [advanced.md](advanced.md)  
+Syntax legend - [legend.md](legend.md)
 
 -----
 
-Вопросы можно задавать по [электронной почте](mailto:wdybih@gmail.com).  
-Все материалы доступны для свободного распространения.  
-При копировании [ссылка на источник](https://github.com/XOP/css-o-gram) обязательна.
+## CSSG generator
+
+Of course it's far more handy to get into into CSSG using automatic generator.
+Check out [CSSG multipurpose converter](https://github.com/XOP/css-o-gram_tool)
+
+-----
+
+Feel free to ask questions via [email](mailto:wdybih@gmail.com).  
+All content is available for free distribution.  
+[Link to source](https://github.com/XOP/css-o-gram) is mandatory when copying materials.

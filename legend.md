@@ -1,21 +1,21 @@
-# Справка по синтаксису
+# Syntax quick refernce
 
-    element 											класс элемента
-  	... 												ключевой контент
-  	#name 												ссылка на часть структуры
-  	span.element 										конкретизация тэга
-  	element . __fixed 									без данного класса не используется
-  	element 				__modificator 				перечисление возможных модификаторов
-  	element 				( __yes | __no ) __maybe 	комплексная логика модификаторов
-  	element 				$__dynamic 					динамический модификатор
-  	[element] 											опциональный элемент
-  	$[dynamic] 											динамически опциональный элемент
-  	list-item + 										появление 1 и более раз
-  	common-item * 										появление 0 и более раз
-  	/// 												разрыв кода
-  	[1] 												маркер вариантного блока 							
-  	descendant @ ancestor 								наследование
-  	% template % 										шаблонизация
-  	(1) 												ссылка на комментарий
-  	------------------- 								отбивка комментариев
-  	(1) comment on code 								комментарий
+	element 											element classname
+	... 												key content
+	#name 												link to compound section
+	span.element 										tag detalization
+	element . __fixed 									not applicable without this class
+	element 				__modificator 				modificators list
+	element 				( __yes | __no ) __maybe 	modificators logic
+	element 				$__dynamic 					dynamic modificator
+	[element] 											optional element
+	$[dynamic] 											dynamically optional element
+	list-item + 										appears at least 1 time
+	common-item * 										appears at least 0 times
+	/// 												code break
+	[1] 												variative block marker 							
+	descendant @ ancestor 								inheritance
+	% template % 										template
+	(1) 												comment link
+	------------------- 								comments break line 
+	(1) comment on code 								comment
