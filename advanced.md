@@ -198,10 +198,12 @@ Alternative (mutual exclusive) blocks example:
 	            [2]
 	            post_cnt2
 	            	...
-	 
+	
+                [/]
+			
 	*/
 
-When it's necessary to illustrate some valueable class somewhere high in DOM tree:
+When it's necessary to illustrate some valueable class somewhere on the upper level in DOM tree:
 
 	/*
 		

@@ -128,6 +128,23 @@ Key content, complemented with apart substance, is denoted with ellipsis placed 
 	
 	*/
 
+## Pseudo elements
+
+When it's meaningful to depict usage of pseudo-elements just use native notation:  
+> Just remember about the right placement!
+
+	/*
+		
+	    post
+	        post_h
+	            ::before
+	            post_h_name
+					::before
+	
+				::after
+		
+	*/
+
 ## Links
 
 In case of complicated structure, it is more convenient to describe structure skeleton with links to compound sections in the beginning of CSS document.

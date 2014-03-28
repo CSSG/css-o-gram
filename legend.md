@@ -9,11 +9,13 @@
 	element 				( __yes | __no ) __maybe 	modificators logic
 	element 				$__dynamic 					dynamic modificator
 	[element] 											optional element
+	<social>											re-usable component
 	$[dynamic] 											dynamically optional element
 	list-item + 										appears at least 1 time
 	common-item * 										appears at least 0 times
 	/// 												code break
-	[1] 												variative block marker 							
+	[1] 												variative block marker
+	[/]													variations end marker 							
 	descendant @ ancestor 								inheritance
 	% template % 										template
 	(1) 												comment link
