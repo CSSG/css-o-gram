@@ -22,19 +22,19 @@ Either way it is recommended to get yourself acquainted with [OOCSS](http://oocs
 
 ## Quick start
 
-Get to know first part of CSSG documentation - [basic.md](basic.md)  
-Easy enough - try it and continue reading - [advanced.md](advanced.md)  
-Syntax legend - [legend.md](legend.md)
+Get to know first part of CSSG documentation - [basic](basic.md)  
+Easy enough - try it and continue reading - [advanced](advanced.md)  
+Syntax legend - [legend](legend.md)
 
 -----
 
 ## CSSG generator
 
 Of course it's far more handy to get into into CSSG using automatic generator.
-Check out [CSSG multipurpose converter](https://github.com/XOP/css-o-gram_tool)
+Check out [CSSG converter](https://github.com/CSSG/css-o-gram_tool)
 
 -----
 
-Feel free to ask questions via [email](mailto:wdybih@gmail.com).  
+Feel free to ask questions via [email](mailto:stewiekillsloiss@gmail.com).  
 All content is available for free distribution.  
-[Link to source](https://github.com/XOP/css-o-gram) is mandatory when copying materials.
+[Link to source](https://github.com/CSSG/css-o-gram) is mandatory when copying materials.
