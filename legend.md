@@ -1,4 +1,4 @@
-# Syntax quick refernce
+# Syntax quick reference
 ```
 element 											element classname
 ... 												key content
