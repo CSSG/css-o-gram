@@ -24,7 +24,7 @@ or like that:
 */
 ```
 The main difference between '\+' and '\*' is in multiplicity specifics.  
-'\+' says that element will appear at least 1 time (which is typical for list items - \<li\>)  
+'\+' says that element will appear at least 1 time (which is typical for list items - &lt;li&gt;)  
 '\*' however says that element may appear more than 0 times (any other elements - you name it)
 
 > it's important to feel the distinction between optional elements ([element]) and appearing 0 and more times (element \*)  
