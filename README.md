@@ -35,6 +35,14 @@ Check out [CSSG converter](https://github.com/CSSG/css-o-gram_tool)
 
 -----
 
+## Fun facts
+
+CSSG could be developed back in 2008-th, thanks to [Vitaly Friedman](https://www.smashingmagazine.com/2008/05/improving-code-readability-with-css-styleguides/)' example!
+
+-----
+
+## Afterword
+
 Feel free to ask questions via [email](mailto:stewiekillsloiss@gmail.com).  
 All content is available for free distribution.  
 [Link to source](https://github.com/CSSG/css-o-gram) is mandatory when copying materials.
