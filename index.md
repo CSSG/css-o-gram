@@ -1,5 +1,4 @@
 # CSS-o-Gram (CSSG)
-> rapid, intuitive, neat - like [SSG](http://en.wikipedia.org/wiki/Steyr_SSG_69), but peaceful
 
 ## Overview
 
