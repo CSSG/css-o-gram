@@ -38,5 +38,5 @@ Feel free to ask questions via [email](mailto:stewiekillsloiss@gmail.com).
 All content is available for free distribution.  
 [Link to source](https://github.com/CSSG/css-o-gram) is mandatory when copying materials.
 
-[cssg.rocks](https://cssg.rocks) 2015 - 2018  
+[cssg.rocks](http://cssg.rocks) 2015 - 2018  
 [github](https://github.com/CSSG/)

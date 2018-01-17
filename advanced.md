@@ -237,5 +237,5 @@ Proceed to [legend](./legend.md)
 
 -----
 
-[cssg.rocks](https://cssg.rocks) 2015 - 2018  
+[cssg.rocks](http://cssg.rocks) 2015 - 2018  
 [github](https://github.com/CSSG/)
