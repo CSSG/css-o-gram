@@ -21,9 +21,9 @@ Either way it is recommended to get yourself acquainted with [OOCSS](http://oocs
 
 ## Quick start
 
-Get to know first part of CSSG documentation - [basic](https://github.com/CSSG/css-o-gram/blob/master/basic.md)  
-Easy enough - try it and continue reading - [advanced](https://github.com/CSSG/css-o-gram/blob/master/advanced.md)  
-Syntax legend - [legend](https://github.com/CSSG/css-o-gram/blob/master/legend.md)
+Get to know first part of CSSG documentation - [basic](./basic.md)  
+Easy enough - try it and continue reading - [advanced](./advanced.md)  
+Syntax legend - [legend](./legend.md)
 
 -----
 
@@ -37,3 +37,6 @@ Check out [CSSG converter](https://github.com/CSSG/css-o-gram_tool)
 Feel free to ask questions via [email](mailto:stewiekillsloiss@gmail.com).  
 All content is available for free distribution.  
 [Link to source](https://github.com/CSSG/css-o-gram) is mandatory when copying materials.
+
+[cssg.rocks](https://cssg.rocks) 2015 - 2018  
+[github](https://github.com/CSSG/)
