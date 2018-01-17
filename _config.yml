@@ -1,0 +1,8 @@
+title: CSS-o-Gram (CSSG)
+description: CSS descriptional language
+google_analytics: UA-41591276-1
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
